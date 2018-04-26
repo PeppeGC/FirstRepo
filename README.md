@@ -1,1 +1,1 @@
-GC2
+GC2 3ds video
