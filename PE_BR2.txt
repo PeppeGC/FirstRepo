@@ -1,4 +1,7 @@
 Git
 added Melde for Merge
+for(int j=0;j<max;j++){
+	Syestem.out.println("Debug:"+j);
+}
 
 
