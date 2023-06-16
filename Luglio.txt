@@ -8,5 +8,5 @@ fix MB
 Losta features
 ZZ
 
-Litsa rilasci
+Lista rilasci
 3.0.2
