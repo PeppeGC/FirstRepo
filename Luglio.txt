@@ -8,3 +8,6 @@ fix MB
 
 LIsta features
 ZZ
+
+Litsa rilasci
+30.02
