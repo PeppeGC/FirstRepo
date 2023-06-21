@@ -10,5 +10,3 @@ ZZ
 
 Lista rilasci
 3.0.2
-
-//commento provvisorio
