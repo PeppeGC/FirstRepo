@@ -8,10 +8,5 @@ fix MB
 LIsta features
 ZZ
 
-Litsa rilasci
+Lista rilasci
 3.0.2
-
-Dev
-GC AS RM MP SB
-
-Continue after dH
