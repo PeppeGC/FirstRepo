@@ -13,3 +13,5 @@ Lista rilasci
 3.0.2
 
 HF ultima
+
+release GIUGNO 3.0.0
