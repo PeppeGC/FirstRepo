@@ -12,6 +12,8 @@ ENNE-N
 Lista rilasci
 3.0.2
 
+Dev
+GC AS RM MP SB
 HF ultima
 
 release GIUGNO 3.0.0
