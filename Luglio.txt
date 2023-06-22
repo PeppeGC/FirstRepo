@@ -5,10 +5,13 @@ feat gg
 fix MB
 
 
-Losta features
+Lista features
 ZZ
+ENNE-N
 
 Lista rilasci
 3.0.2
 
 HF ultima
+
+release GIUGNO 3.0.0
