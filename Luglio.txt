@@ -7,6 +7,7 @@ fix MB
 
 Lista features
 ZZ
+ENNE-N
 
 Lista rilasci
 3.0.2
