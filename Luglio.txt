@@ -10,7 +10,7 @@
       MapList getRelatedSubproject = Project.getRelatedObjects(context, "Subtask", TypeProject, selectStmts, selectRelStmts, false, true, (short)1, sWhere, sWhereRel);
       return getRelatedSubproject;
   }
-	 //metodo per cercare tutti i project collegati al subproject figlio
+	 //cerco tutti i project collegati al subproject figlio
 	 private MapList getRelatedProject (Context context, DomainObject Project, String TypeProject) throws FrameworkException {
 	        StringList selectStmts = new StringList();
 	        selectStmts.addElement(DomainConstants.SELECT_ID);
