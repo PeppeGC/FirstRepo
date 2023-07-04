@@ -1,24 +1,22 @@
-2023
-14/06 GC
-Feature ff checked
-feat gg
-fix MB
+2023 14/06 GC
 
-
-Lista features
-ZZ
-ENNE-N
-
-Lista rilasci
-3.0.2
-
-Dev
-GC AS RM MP SB
-HF ultima
-
-release GIUGNO 3.0.0
-
-stashiamo 1
-TEST 23
-
-PIPPO 44 SourceTree
+  private MapList getRelatedSubproject (Context context, DomainObject Project, String TypeProject) throws FrameworkException {
+      StringList selectStmts = new StringList();
+      selectStmts.addElement(DomainConstants.SELECT_ID);
+      
+      StringList selectRelStmts = new StringList();
+      String sWhere = "";
+      String sWhereRel = "";
+      MapList getRelatedSubproject = Project.getRelatedObjects(context, "Subtask", TypeProject, selectStmts, selectRelStmts, false, true, (short)1, sWhere, sWhereRel);
+      return getRelatedSubproject;
+  }
+	 //metodo per cercare tutti i project collegati al subproject figlio
+	 private MapList getRelatedProject (Context context, DomainObject Project, String TypeProject) throws FrameworkException {
+	        StringList selectStmts = new StringList();
+	        selectStmts.addElement(DomainConstants.SELECT_ID);
+	        StringList selectRelStmts = new StringList();
+	        String sWhere = "";
+	        String sWhereRel = "";
+	        MapList getRelatedSubproject = Project.getRelatedObjects(context, "Subtask", TypeProject, selectStmts, selectRelStmts, true , false, (short)1, sWhere, sWhereRel);
+	        return getRelatedSubproject;
+	    } 
