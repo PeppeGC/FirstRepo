@@ -1,4 +1,8 @@
-2023 14/06 - GC (ciao ciao)
+<<<<<<< .merge_file_JyBu7V
+2023 14/06 - GC
+=======
+2023 14/06 GC DEV
+>>>>>>> .merge_file_MY3Eva
 
   private MapList getRelatedSubproject (Context context, DomainObject Project, String TypeProject) throws FrameworkException {
       StringList selectStmts = new StringList();
